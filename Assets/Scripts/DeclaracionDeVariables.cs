@@ -16,7 +16,11 @@ public class DeclaracionDeVariables : MonoBehaviour
         magnitudTerremoto = 9.3f;
         nombreAlumno = "Jeronimo";
         compuHabilitada = false;
-  
+
+        Debug.Log(cantidadAlumnos);
+        Debug.Log(magnitudTerremoto);
+        Debug.Log(nombreAlumno);
+        Debug.Log(compuHabilitada);
     }
 
     // Update is called once per frame
